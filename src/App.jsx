@@ -21,14 +21,16 @@ useEffect(() => {
     );
 }
 
-    setCartQuantity(totalQuantity);
+ /* 
+ setCartQuantity(totalQuantity);
 
     const total = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0)
    setTotalSum(total)
-  }, [cart]);
+  }, [cart]); 
+  */
 
 
-function Page(){
+/*function Page(){
     return(
           <main>
             <CategoryTitle />
@@ -36,6 +38,6 @@ function Page(){
           </main>
     )
   }
-
+*/
 
 export default App
